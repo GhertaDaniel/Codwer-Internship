@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-items: center;
+  gap: 5px;
+}
+
+.side1 {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 405px;
+}
+.side2 {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 505px;
+}
+
+.block {
+  color: white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #334867;
+}
+
+.side2 > .block {
+  width: 131px;
+  height: 131px;
+}
