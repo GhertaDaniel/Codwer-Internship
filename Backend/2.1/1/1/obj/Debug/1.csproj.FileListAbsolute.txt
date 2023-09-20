@@ -1,0 +1,6 @@
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.1/1/1/bin/Debug/_1.exe
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.1/1/1/bin/Debug/_1.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.1/1/1/obj/Debug/1.csproj.AssemblyReference.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.1/1/1/obj/Debug/1.csproj.CoreCompileInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.1/1/1/obj/Debug/_1.exe
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.1/1/1/obj/Debug/_1.pdb
