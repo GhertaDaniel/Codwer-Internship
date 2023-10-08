@@ -239,9 +239,8 @@ class Program
 
         List<Animal> animaleErbivore = animale.Where(a => a is Erbivor).ToList();
         List<Animal> animaleCarnivore = animale.Where(a => a is Carnivor).ToList();
-        List<Animal> animaleOmnivore = animale.Where(a => a is Omnivor).ToList();
 
-        Console.WriteLine($"{animaleOmnivore.Count} animale mananca mancare");
+        Console.WriteLine($"{animale.Count} animale mananca mancare");
         Console.WriteLine($"{animaleErbivore.Count} animale mananca plante");
         Console.WriteLine($"{animaleCarnivore.Count} animale mananca carne");
     }
