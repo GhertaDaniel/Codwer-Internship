@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.4 Delegates & Events/1/1.csproj": {}
+    "C:\\Users\\Marshall\\Desktop\\WEB\\GITHUB\\C#\\Backend\\2.4 Delegates & Events\\1\\1.csproj": {}
   },
   "projects": {
-    "/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.4 Delegates & Events/1/1.csproj": {
+    "C:\\Users\\Marshall\\Desktop\\WEB\\GITHUB\\C#\\Backend\\2.4 Delegates & Events\\1\\1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.4 Delegates & Events/1/1.csproj",
+        "projectUniqueName": "C:\\Users\\Marshall\\Desktop\\WEB\\GITHUB\\C#\\Backend\\2.4 Delegates & Events\\1\\1.csproj",
         "projectName": "1",
-        "projectPath": "/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.4 Delegates & Events/1/1.csproj",
-        "packagesPath": "/Users/danmarshall/.nuget/packages/",
-        "outputPath": "/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/2.4 Delegates & Events/1/obj/",
+        "projectPath": "C:\\Users\\Marshall\\Desktop\\WEB\\GITHUB\\C#\\Backend\\2.4 Delegates & Events\\1\\1.csproj",
+        "packagesPath": "C:\\Users\\Marshall\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marshall\\Desktop\\WEB\\GITHUB\\C#\\Backend\\2.4 Delegates & Events\\1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danmarshall/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Marshall\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

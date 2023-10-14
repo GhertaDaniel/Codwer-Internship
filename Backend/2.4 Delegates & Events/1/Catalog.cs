@@ -7,146 +7,64 @@ namespace _1
 		public DateTime? PerioadaStart { get; set; }
 		public DateTime? PerioadaStop { get; set; }
 		public List<Reducere> Reduceri { get; set; }
+        public List<Client> ClientiAbonati { get; set; } = new();
 
-        public event Action<string, decimal> PriceChanged;
-
-		public void UpdateProductPrice(string numeProdus, decimal newPrice)
-		{
-            Produs productToChange = FindProductByName(numeProdus);
-
-            if (productToChange != null)
-			{
-				decimal oldPrice = productToChange.Pret.Valoare;
-                productToChange.Pret.Valoare = newPrice;
-
-                if(oldPrice != newPrice)
-                {
-				    onPriceChanged(productToChange.Nume, newPrice);
-                }
-			}
-			else
-			{
-				Console.WriteLine($"Produsul cu numele {productToChange.Nume} nu a fost gasit");
-			}
-
-		}
-
-        public Produs FindProductByName(string name)
+        public Catalog(List<Produs> produse, DateTime? start, DateTime? stop, List<Reducere> reduceri) 
         {
-            return Produse.Find(prod => prod.Nume.ToLower() == name.ToLower());
+            Produse = produse;
+            PerioadaStart = start;
+            PerioadaStop = stop;
+            Reduceri = reduceri;
         }
 
-        public List<Produs> ProduseFavorite(Client client)
-        {
-            var favoriteItems = new List<Produs>();
+        private Dictionary<Client, List<Produs>> abonati = new();
 
-            for (int i = 0; i < client.ProduseFavorite.Count; i++)
+        public void AbonareClient(Client client)
+        {
+            ClientiAbonati.Add(client);
+            abonati[client] = new List<Produs>();
+
+            foreach(var produs in Produse)
             {
-                if (client.ProduseFavorite[i])
+                if(client.ProduseFavorite.Contains(produs.Id))
                 {
-                    favoriteItems.Add(Produse[i]);
+                    produs.PriceChanged += (oldPrice, newPrice, prod) =>
+                    {
+                        if (abonati.ContainsKey(client) && abonati[client].Contains(prod))
+                        {
+                            string mesaj = $"Produsul {prod.Nume} Pretul: {oldPrice} {prod.Pret.Moneda} -> {newPrice} {prod.Pret.Moneda}";
+                            client.Notifica(mesaj);
+                        }
+                    };
+
+                    abonati[client].Add(produs);
                 }
             }
-
-            return favoriteItems;
         }
 
-        public void AbonareSchimbarePret(string nume, Action<string, decimal> eventHandler)
+        public void DezabonareClient(Client client)
         {
-            Action<string, decimal> handler = (string numeProdus, decimal newPrice) =>
+            if(ClientiAbonati.Contains(client))
             {
-                if (numeProdus == nume)
+                foreach(var produs in abonati[client])
                 {
-                    eventHandler(numeProdus, newPrice);
+                    produs.PriceChanged -= (oldPrice, newPrice, prod) =>
+                    {
+                        if(abonati.ContainsKey(client) && abonati[client].Contains(prod)) 
+                        {
+                            client.Notifica($"Produsul {prod.Nume} Pretul: {oldPrice} {prod.Pret.Moneda} -> {newPrice} {prod.Pret.Moneda}");
+                        }
+                    };
                 }
-            };
 
-            PriceChanged += handler;
-        }
-
-        
-        public void DezabonareSchimbarePret(string nume, Action<string, decimal> eventHandler)
-        {
-            Action<string, decimal> handler = (string numeProdus, decimal newPrice) =>
+                ClientiAbonati.Remove(client);
+                abonati.Remove(client);
+                client.Inbox.Clear();
+            } else
             {
-                if (numeProdus == nume)
-                {
-                    eventHandler(numeProdus, newPrice);
-                }
-            };
-
-           PriceChanged -= handler;
-        }
-
-        private void onPriceChanged(string numeProdus, decimal newPrice)
-        {
-            if (PriceChanged != null)
-            {
-                PriceChanged(numeProdus, newPrice);
+                throw new InvalidOperationException("Clientul nu este abonat");
             }
         }
-
-        //public void UpdateProductPrice(string numeProdus, decimal newPrice, Moneda moneda)
-        //{
-        //	Produs? productToChange = Produse.Find(prod => prod.Nume.ToLower() == numeProdus.ToLower());
-
-        //	if(productToChange != null)
-        //	{
-        //		decimal oldPrice = productToChange.Pret.Valoare;
-        //		productToChange.Pret.Valoare = newPrice;
-        //		onPriceChanged(numeProdus, oldPrice, newPrice, moneda);
-        //	}
-        //	else
-        //	{
-        //              Console.WriteLine($"Produsul cu numele {numeProdus} nu a fost gasit");
-        //          }
-
-        //}
-
-        //public Action SubscribeToCatalog(string numeProdus)
-        //{
-        //	Action<string, decimal, decimal, Moneda> subscription = (productName, oldPrice, newPrice, moneda) =>
-        //	{
-        //		if (productName.ToLower() == numeProdus.ToLower())
-        //		{
-        //			Console.WriteLine($"Pretul produsului {numeProdus} s-a schimbat de la {oldPrice} la {newPrice} ({moneda})");
-        //		}
-        //	};
-
-        //	PriceChanged += subscription;
-
-        //	Action unsubscribe = () =>
-        //	{
-        //		if(PriceChanged != null)
-        //		{
-        //			Console.WriteLine("Dezabonat");
-        //			PriceChanged -= subscription;
-        //		} else
-        //		{
-        //			throw new InvalidOperationException("Vati dezabonat deja");
-        //		}
-        //	};
-
-        //	return unsubscribe;
-
-        //}
-
-        //      public void UnsubscribeFromCatalog(Action? unsubscribe)
-        //{
-        //	if(unsubscribe != null) 
-        //	{
-        //		unsubscribe?.Invoke();
-        //	} 
-        //}
-
-        //private void onPriceChanged(string numeProdus, decimal oldPrice, decimal newPrice, Moneda moneda)
-        //{
-        //	if (PriceChanged != null)
-        //	{
-        //		PriceChanged(numeProdus, oldPrice, newPrice, moneda);
-        //	}
-        //}
-
     }
 }
 

@@ -5,7 +5,18 @@ namespace _1
 	{
 		public Guid Id { get; set; }
 		public string Nume { get; set; }
-		public Pret Pret { get; set; }
+		private Pret pret { get; set; }
+		public Pret Pret
+		{
+			get { return pret; }
+			set
+			{
+				decimal oldPrice = pret.Valoare;
+				pret = value;
+                onPriceChange(oldPrice, pret.Valoare, this);
+			}
+		}
+
 		private int stoc;
 
 		public int Stoc
@@ -15,7 +26,9 @@ namespace _1
 			{
 				if(value > 0)
 				{
+					int oldStock = stoc;
 					stoc = value;
+					onStockChange(oldStock, stoc, this);
 				}
 				else
 				{
@@ -23,29 +36,30 @@ namespace _1
 				}
 			}
 		}
+
 		public Producator Producator { get; set; }
 
-		public event EventHandler<Produs> stocChangeCompleted;
-
-		public void startStocChanging(decimal newStocValue, Produs produs)
+		public Produs(Guid id, string nume, Pret pret, int stoc, Producator producator)
 		{
-			try
-			{
-				decimal oldStocValue = stoc;
-				Console.WriteLine($"Valoarea stocului vechi: {oldStocValue}");
-				stoc = (int)newStocValue;
-
-				onStocValueChange(produs);
-			}
-			catch (Exception ex)
-			{
-				Console.WriteLine($"Eroare: {ex.Message}");
-			}
+			Id = id;
+			Nume = nume;
+			this.pret = pret;
+			this.stoc = stoc;
+			Producator = producator;
 		}
 
-		protected virtual void onStocValueChange(Produs produs)
+		public event ModificatorPretStoc<int, Produs> StockChanged;
+
+		public event ModificatorPretStoc<decimal, Produs> PriceChanged;
+
+		protected virtual void onStockChange(int oldStock, int newStock, Produs prod) 
+		{ 
+			StockChanged?.Invoke(oldStock, newStock, prod);
+		}
+
+		protected virtual void onPriceChange(decimal oldPrice, decimal  newPrice, Produs prod)
 		{
-			stocChangeCompleted?.Invoke(this, produs);
+			PriceChanged?.Invoke(oldPrice, newPrice, prod);
 		}
 	}
 }

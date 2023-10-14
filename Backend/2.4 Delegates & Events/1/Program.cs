@@ -7,7 +7,7 @@ public enum Moneda
     USD
 }
 
-//public delegate void changeValue<T, TResponse>(T old, T neww, TResponse obj);
+public delegate void ModificatorPretStoc<T, TResponse>(T old, T neww, TResponse obj);
 
 class Program
 {
@@ -15,23 +15,23 @@ class Program
     {
         List<Reducere> reduceri1 = new()
         {
-            new Reducere { Name = "Reducere1", Data = DateTime.Parse("2023-10-01"), Aplica = produs => Console.WriteLine($"Reducere1 aplicata pentru produsul {produs.Nume}") },
-            new Reducere { Name = "Reducere2", Data = DateTime.Parse("2023-10-15"), Aplica = produs => Console.WriteLine($"Reducere2 aplicata pentru produsul {produs.Nume}") },
-            new Reducere { Name = "Reducere3", Data = DateTime.Parse("2023-11-05"), Aplica = produs => Console.WriteLine($"Reducere3 aplicata pentru produsul {produs.Nume}") }
+            new Reducere("Reducere1", DateTime.Parse("2023-10-01")),
+            new Reducere("Reducere2", DateTime.Parse("2023-10-15")),
+            new Reducere("Reducere3", DateTime.Parse("2023-11-05")),
         };
 
         List<Reducere> reduceri2 = new()
         {
-            new Reducere { Name = "Discount1", Data = DateTime.Parse("2023-09-20"), Aplica = produs => Console.WriteLine($"Discount1 aplicata pentru produsul {produs.Nume}") },
-            new Reducere { Name = "Discount2", Data = DateTime.Parse("2023-10-10"), Aplica = produs => Console.WriteLine($"Discount2 aplicata pentru produsul {produs.Nume}") },
-            new Reducere { Name = "Discount3", Data = DateTime.Parse("2023-10-30"), Aplica = produs => Console.WriteLine($"Discount3 aplicata pentru produsul {produs.Nume}") }
+            new Reducere("Discount1", DateTime.Parse("2023-09-20")),
+            new Reducere("Discount2", DateTime.Parse("2023-10-10")),
+            new Reducere("Discount3", DateTime.Parse("2023-10-30")),
         };
 
         List<Reducere> reduceri3 = new()
         {
-            new Reducere { Name = "Oferta1", Data = DateTime.Parse("2023-11-01"), Aplica = produs => Console.WriteLine($"Oferta1 aplicata pentru produsul {produs.Nume}") },
-            new Reducere { Name = "Oferta2", Data = DateTime.Parse("2023-11-15"), Aplica = produs => Console.WriteLine($"Oferta2 aplicata pentru produsul {produs.Nume}") },
-            new Reducere { Name = "Oferta3", Data = DateTime.Parse("2023-12-05"), Aplica = produs => Console.WriteLine($"Oferta3 aplicata pentru produsul {produs.Nume}") }
+            new Reducere("Oferta1", DateTime.Parse("2023-11-01")),
+            new Reducere("Oferta2", DateTime.Parse("2023-11-15")),
+            new Reducere("Oferta3", DateTime.Parse("2023-12-05")),
         };
 
         List<Reducere> reduceri = reduceri1.Concat(reduceri2).Concat(reduceri3).ToList();
@@ -45,146 +45,54 @@ class Program
 
         List<Producator> producatori = new()
         {
-            new Producator() { Nume = "Samsung", Reduceri = reduceri1 },
-
-            new Producator() { Nume = "Phillips", Reduceri = reduceri2 },
-
-            new Producator() { Nume="Apple", Reduceri = reduceri3 }
+            new Producator("Samsung", reduceri1),
+            new Producator("Apple", reduceri2),
+            new Producator("Phillips", reduceri3),
         };
 
-        Catalog catalog = new()
+        Produs produs1 = new(Guid.NewGuid(), "Telefon", new Pret(250, Moneda.EUR), 10, producatori[0]);
+        Produs produs2 = new(Guid.NewGuid(), "Televizor", new Pret(16000, Moneda.LEU), 5, producatori[2]);
+        Produs produs3 = new(Guid.NewGuid(), "Masina", new Pret(16500, Moneda.EUR), 23, producatori[2]);
+        Produs produs4 = new(Guid.NewGuid(), "Tableta", new Pret(800, Moneda.EUR), 21, producatori[1]);
+
+        List<Produs> Produse = new() { produs1, produs2, produs3, produs4 };
+
+        Catalog catalog = new(Produse, DateTime.Now.AddDays(14), null, new List<Reducere>()
         {
-            PerioadaStart = DateTime.Parse("2023-10-01"),
-            PerioadaStop = DateTime.Parse("2024-10-01"),
-            Reduceri = reduceri,
-            Produse = new List<Produs>()
-            {
-                new Produs()
-                {
-                    Id = Guid.NewGuid(),
-                    Nume="Telefon",
-                    Pret=new() { Moneda=Moneda.EUR, Valoare=250 },
-                    Producator=producatori[0],
-                    Stoc=10
-                },
-                new Produs()
-                {
-                    Id = Guid.NewGuid(),
-                    Nume="Televizor",
-                    Pret=new() { Moneda=Moneda.LEU, Valoare=16000 },
-                    Producator=producatori[0],
-                    Stoc=5
-                },
-                new Produs()
-                {
-                    Id = Guid.NewGuid(),
-                    Nume="Radio",
-                    Pret=new() { Moneda=Moneda.USD, Valoare=75 },
-                    Producator=producatori[2],
-                    Stoc=15
-                },
-                new Produs()
-                {
-                    Id = Guid.NewGuid(),
-                    Nume="Tableta",
-                    Pret=new() { Moneda=Moneda.EUR, Valoare=800 },
-                    Producator=producatori[1],
-                    Stoc=21
-                },
-                new Produs()
-                {
-                    Id = Guid.NewGuid(),
-                    Nume="Masina",
-                    Pret=new() { Moneda=Moneda.EUR, Valoare=16500 },
-                    Producator=producatori[1],
-                    Stoc=23
-                },
-                new Produs()
-                {
-                    Id = Guid.NewGuid(),
-                    Nume="Bicicleta",
-                    Pret=new() { Moneda=Moneda.LEU, Valoare=12000 },
-                    Producator=producatori[2],
-                    Stoc=26
-                },
-            }
-        };
+            new Reducere("Reducere1", DateTime.Parse("2023-10-01")),
+            new Reducere("Reducere2", DateTime.Parse("2023-10-15"))
+        });
 
         List<Client> clienti = new()
         {
-            new Client { Email="example1@gmail.com", Moneda=Moneda.EUR, ProduseFavorite= new List<bool>
-                {
-                    true, false, true
-                }
-            },
-            new Client { Email="example2@gmail.com", Moneda=Moneda.USD, ProduseFavorite=new List<bool>
-                {
-                    false, true, false
-                }
-            },
-            new Client { Email="example3@gmail.com", Moneda=Moneda.LEU, ProduseFavorite=new List<bool>
-                {
-                    true, true, true
-                }
-            },
-            new Client { Email="example4@gmail.com", Moneda=Moneda.USD, ProduseFavorite=new List<bool>
-                {
-                    false, false, true
-                }
-            },
+            new Client { Email="example1@gmail.com", Moneda=Moneda.EUR, ProduseFavorite=new List<object>{ produs1.Id  } },
+            new Client { Email="example2@gmail.com", Moneda=Moneda.USD, ProduseFavorite=new List<object> { produs1.Id , produs2.Id } },
+            new Client { Email="example3@gmail.com", Moneda=Moneda.LEU, ProduseFavorite=new List<object> { produs3.Id, produs2.Id } },
+            new Client { Email="example4@gmail.com", Moneda=Moneda.USD, ProduseFavorite=new List<object> { produs1.Id ,produs3.Id, produs4.Id } },
         };
 
-        Client Andrew = clienti[0];
+        catalog.AbonareClient(clienti[0]);
+        catalog.AbonareClient(clienti[1]);
 
-        var clientFavoriteItems = catalog.ProduseFavorite(Andrew);
+        produs1.Pret = new Pret(350, Moneda.EUR);
+        produs2.Pret = new Pret(18000, Moneda.LEU);
+        produs4.Pret = new Pret(1200, Moneda.EUR);
 
-        foreach(var item in clientFavoriteItems)
+        foreach (string mess in clienti[0].Inbox)
         {
-            catalog.AbonareSchimbarePret(item.Nume, Product_PriceChanged);
-            //catalog.PriceChanged += Product_PriceChanged;
+            Console.WriteLine(mess);
         }
 
-        catalog.UpdateProductPrice("Telefon", 210);
+        catalog.DezabonareClient(clienti[0]);
 
-        catalog.UpdateProductPrice("Radio", 250);
 
-        catalog.DezabonareSchimbarePret("Telefon", Product_PriceChanged);
-
-        catalog.UpdateProductPrice("Telefon", 320);
-
-        static void Product_PriceChanged(string numeProdus, decimal newPrice)
+        produs1.Pret = new Pret(250, Moneda.EUR);
+        foreach(string mes in clienti[0].Inbox)
         {
-            Console.WriteLine($"Pretul la {numeProdus} sa schimbat in {newPrice:C}");
+            Console.WriteLine(mes);
         }
 
-
-        //catalog.UpdateProductPrice(catalog.Produse[0], 210);
-
-        //Action TelefonSubscription = catalog.SubscribeToCatalog("Telefon");
-
-        //Action TabletaSubscription = catalog.SubscribeToCatalog("Tableta");
-
-        //catalog.UpdateProductPrice("Telefon", 499, Moneda.EUR);
-
-        //catalog.UnsubscribeFromCatalog(TelefonSubscription);
-
-        //catalog.UnsubscribeFromCatalog(TabletaSubscription);
-
-        //catalog.UpdateProductPrice("Telefon", 300, Moneda.EUR);
-
-        //catalog.SubscribeToCatalog("Telefon");
-
-        //catalog.UpdateProductPrice("Telefon", 550, Moneda.EUR);
-
-        static void Price_ProcessCompleted(object sender, Produs produs)
-        {
-            Console.WriteLine($"Pretul nou: {produs.Pret.Valoare}");
-        }
-
-        static void Stoc_ProcessCompleted(object sender, Produs produs)
-        {
-            Console.WriteLine($"Valoarea noua a stocului: {produs.Stoc}");
-        }
+        Console.ReadLine();
     }
 }
 
