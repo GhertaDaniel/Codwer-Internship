@@ -1,5 +1,5 @@
 CREATE DATABASE SQL_FUNDAMENTALS
-use SQL_FUNDAMENTALS;
+USE SQL_FUNDAMENTALS;
 
 CREATE TABLE Persoane (
     PersoanaID INT PRIMARY KEY,
@@ -73,12 +73,16 @@ ALTER TABLE ComenziProduse
 ADD DataAdaugarii DATETIME DEFAULT GETDATE(),
     DataUltimeiModificari DATETIME DEFAULT GETDATE();
 
+CREATE INDEX ComenziProduse_ComandaID_Index ON ComenziProduse (ComandaID);
+
 -- suma totala a preturilor produselor din fiecare comanda pentru toate comenzile
 SELECT c.ComandaID, SUM(p.Pret * cp.Cantitate) AS Total FROM Comenzi c
 Join ComenziProduse cp ON c.ComandaID = cp.ComandaID
 JOIN Produse p ON cp.ProdusID = p.ProdusID
 GROUP BY c.ComandaID
 HAVING COUNT(cp.ProdusID) >= 2;
+
+CREATE INDEX Comenzi_PersoanaID_Index ON Comenzi (PersoanaID);
 
 -- persoanele care au plasat comenzi si data cea mai recenta a comandei plasate de fiecare persoana
 SELECT p.PersoanaID, p.Nume, MAX(c.DataAdaugarii) AS DataUltimeiComenzi
