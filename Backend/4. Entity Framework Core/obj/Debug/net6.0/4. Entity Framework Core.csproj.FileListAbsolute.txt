@@ -1,0 +1,107 @@
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.csproj.AssemblyReference.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.AssemblyInfoInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.AssemblyInfo.cs
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.csproj.CoreCompileInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/4. Entity Framework Core
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/4. Entity Framework Core.deps.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/4. Entity Framework Core.runtimeconfig.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/4. Entity Framework Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/4. Entity Framework Core.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Google.Protobuf.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/K4os.Compression.LZ4.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/K4os.Hash.xxHash.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/MySql.Data.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/MySql.EntityFrameworkCore.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Text.Json.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/ZstdSharp.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x64/native/comerr64.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x64/native/gssapi64.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x64/native/krb5_64.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x64/native/krbcc64.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.csproj.CopyComplete
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/refint/4. Entity Framework Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/4. Entity Framework Core.genruntimeconfig.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/obj/Debug/net6.0/ref/4. Entity Framework Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Humanizer.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.CodeDom.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Configuration.UserSecrets.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Hosting.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.Configuration.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.Console.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.Debug.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.EventLog.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Logging.EventSource.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Diagnostics.EventLog.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Azure.Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Azure.Identity.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/4. Entity Framework Core/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
