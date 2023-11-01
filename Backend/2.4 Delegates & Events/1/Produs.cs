@@ -23,21 +23,23 @@ namespace _1
 		{
 			get { return stoc; }
 			set
-			{
-				if(value > 0)
+			{ 
+				int oldStock = stoc;
+				if(oldStock < 0)
 				{
-					int oldStock = stoc;
+					throw new ArgumentException("Stocul nu poate fi negativ");
+				}
+				else if(oldStock == 0 && value > 0)
+				{
 					stoc = value;
 					onStockChange(oldStock, stoc, this);
-				}
-				else
-				{
-					throw new ArgumentException("Stocul trebuie sa fie un numar pozitiv");
+					NotifyClients();
 				}
 			}
 		}
 
 		public Producator Producator { get; set; }
+		public List<Client> Clienti { get; set; } = new();
 
 		public Produs(Guid id, string nume, Pret pret, int stoc, Producator producator)
 		{
@@ -51,6 +53,22 @@ namespace _1
 		public event ModificatorPretStoc<int, Produs> StockChanged;
 
 		public event ModificatorPretStoc<decimal, Produs> PriceChanged;
+
+		public void RegisterClients(Client c)
+		{
+			Clienti.Add(c);
+		}
+
+		private void NotifyClients()
+		{
+			foreach(Client client in Clienti)
+			{
+				if(client.ProduseFavorite.Contains(Id))
+				{
+					client.Notifica($"Produsul {Nume} este din nou in stoc");
+				}
+			}
+		}
 
 		protected virtual void onStockChange(int oldStock, int newStock, Produs prod) 
 		{ 

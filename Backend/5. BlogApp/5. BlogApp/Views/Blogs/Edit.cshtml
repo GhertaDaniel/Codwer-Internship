@@ -1,0 +1,61 @@
+﻿@model Blog
+@{
+
+}
+
+<h1>Edit</h1>
+
+<h4>Blog</h4>
+<hr />
+
+<form asp-action="Edit" asp-controller="Blogs" method="post">
+
+    @*Title*@
+    <div class="form-field flex">
+        <div class="w-25">
+            <label asp-for="Title" class="form-label pt">
+                Title
+            </label>
+            <div class="flex-1">
+                <input asp-for="Title" class="form-input" />
+                <span asp-validation-for="Title" class="text-red"></span>
+            </div>
+        </div>
+    </div>
+
+    @*Content*@
+    <div class="form-field flex">
+        <div class="w-25">
+            <input type="hidden" asp-for="BlogID" />
+            <label asp-for="Content" class="form-label pt">
+                Content
+            </label>
+            <div class="flex-1">
+                <input asp-for="Content" class="form-input" />
+                <span asp-validation-for="Content" class="text-red"></span>
+            </div>
+        </div>
+    </div>
+
+    @*Save Button*@
+    <div class="form-field flex">
+        <div class="w-25"></div>
+        <div class="flex-1">
+            <button class="button button-green-back" type="submit">Save</button>
+
+            <div asp-validation-summary="All" class="text-red"></div>
+
+            @if (ViewBag.Errors != null)
+            {
+                <div class="text-red ml">
+                    <ul>
+                        @foreach (string error in ViewBag.Errors)
+                        {
+                            <li>@error</li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+    </div>
+</form>

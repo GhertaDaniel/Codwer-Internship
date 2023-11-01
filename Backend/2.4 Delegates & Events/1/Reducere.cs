@@ -11,8 +11,8 @@ namespace _1
 			Data = data;
 		}
 
-		public Action<Produs> Aplica = (produs) => 
-		{ 
+		public Action<Produs> Aplica = (produs) =>
+		{
 			produs.Pret.Valoare -= produs.Pret.Valoare * 0.31m;
 		};
 	}

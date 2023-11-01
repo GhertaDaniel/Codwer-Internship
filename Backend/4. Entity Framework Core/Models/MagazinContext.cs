@@ -18,6 +18,7 @@ namespace _4._Entity_Framework_Core
 			optionsBuilder.UseSqlServer("Server=localhost,1433;database=Magazin;user=SA;password=4566.LDlimba0;TrustServerCertificate=true;");
         }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 			modelBuilder.Entity<ComandaProdus>().HasKey(cp => new { cp.ComandaID, cp.ProdusID });

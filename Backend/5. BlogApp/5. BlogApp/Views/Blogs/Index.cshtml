@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Blog>
+
+@{
+    ViewBag.Title = "Blogs";
+    ViewBag.CurrentUrl = "~/Blogs/Index";
+}
+
+<div class="post-grid">
+    @foreach(var blog in Model)
+        {
+            <div class="post-card">
+                <div class="post-title">@blog.Title</div>
+                <div class="post-content">@blog.Content</div>
+                <a class="button button-link button-green-back mt" asp-controller="Blogs" asp-action="GetBlogById" asp-route-BlogID="@blog.BlogID">see post</a>
+                <a class="button button-link button-blue-back mt" asp-controller="Blogs" asp-action="Edit" asp-route-BlogID="@blog.BlogID">edit</a>
+                <a class="button button-link button-red-back mt" asp-controller="Blogs" asp-action="Delete" asp-route-BlogID="@blog.BlogID">delete</a>
+            </div>
+        }
+</div>
+

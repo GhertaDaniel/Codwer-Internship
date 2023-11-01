@@ -1,0 +1,92 @@
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/appsettings.Development.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/appsettings.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/5. BlogApp.staticwebassets.runtime.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/5. BlogApp
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/5. BlogApp.deps.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/5. BlogApp.runtimeconfig.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/5. BlogApp.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/5. BlogApp.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.csproj.AssemblyReference.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.AssemblyInfoInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.AssemblyInfo.cs
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.csproj.CoreCompileInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.RazorAssemblyInfo.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.RazorAssemblyInfo.cs
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets/msbuild.5. BlogApp.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets/msbuild.build.5. BlogApp.props
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.5. BlogApp.props
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.5. BlogApp.props
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets.build.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/staticwebassets.development.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/scopedcss/bundle/5. BlogApp.styles.css
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/scopedcss/projectbundle/5. BlogApp.bundle.scp.css
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/refint/5. BlogApp.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.genruntimeconfig.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/ref/5. BlogApp.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Azure.Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Azure.Identity.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Humanizer.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.CodeDom.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Text.Json.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/obj/Debug/net6.0/5. BlogApp.csproj.CopyComplete

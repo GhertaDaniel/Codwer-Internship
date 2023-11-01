@@ -1,0 +1,74 @@
+﻿@model Blog
+@{
+    ViewBag.Title = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Blog</h4>
+<hr />
+<form asp-action="Create" asp-controller="Blogs" method="post">
+
+    @*Title*@
+    <div class="form-field flex">
+        <div class="w-25">
+            <label asp-for="Title" class="form-label pt">
+                Title
+            </label>
+            <div class="flex-1">
+                <input asp-for="Title" class="form-input" />
+                <span asp-validation-for="Title" class="text-red"></span>
+            </div>
+        </div>
+    </div>
+
+    @*Content*@
+    <div class="form-field flex">
+        <div class="w-25">
+            <label asp-for="Content" class="form-label pt">
+                Content
+            </label>
+            <div class="flex-1">
+                <input asp-for="Content" class="form-input" />
+                <span asp-validation-for="Content" class="text-red"></span>
+            </div>
+        </div>
+    </div>
+
+    @*User ID*@
+    <div class="form-field flex">
+        <div class="w-25">
+            <label asp-for="UserID" class="form-label pt">
+                Content
+            </label>
+            <div class="flex-1">
+                User
+                <select asp-for="UserID" class="form-input" asp-items="ViewBag.Users">
+                    <option value="">Please Select UserID</option>
+                </select>
+                <span asp-validation-for="UserID" class="text-red"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-field flex">
+        <div class="w-25"></div>
+        <div class="flex-1">
+            <button class="button button-green-back" type="submit">Create</button>
+
+            <div asp-validation-summary="All" class="text-red"></div>
+
+            @if (ViewBag.Errors != null)
+            {
+                <div class="text-red ml">
+                    <ul>
+                        @foreach (string error in ViewBag.Errors)
+                        {
+                            <li>@error</li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+    </div>
+</form>

@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{A1D2F19B-F096-41B8-9AA4-B59F24365452}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/5. BlogApp/Controllers/AccountController.cs" relfile="5. BlogApp/Controllers/AccountController.cs" line="40" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="5. BlogApp/Views/Account/Login.cshtml">
+    <Files>
+      <File FileName="5. BlogApp/Controllers/AccountController.cs" Line="113" Column="49" />
+      <File FileName="5. BlogApp/Views/Shared/_Layout.cshtml" Line="78" Column="90" />
+      <File FileName="5. BlogApp/Views/Blogs/Index.cshtml" Line="14" Column="129" />
+      <File FileName="5. BlogApp/wwwroot/StyleSheet.css" Line="455" Column="21" />
+      <File FileName="5. BlogApp/Views/Account/Index.cshtml" Line="29" Column="55" />
+      <File FileName="5. BlogApp/Services/AccountService.cs" Line="16" Column="46" />
+      <File FileName="5. BlogApp/Program.cs" Line="7" Column="50" />
+      <File FileName="5. BlogApp/Services/BlogService.cs" Line="50" Column="44" />
+      <File FileName="5. BlogApp/Controllers/BlogsController.cs" Line="47" Column="44" />
+      <File FileName="5. BlogApp/Views/Account/Login.cshtml" Line="35" Column="23" />
+      <File FileName="5. BlogApp/Views/Blogs/Create.cshtml" Line="48" Column="26" />
+      <File FileName="5. BlogApp/Models/Blog.cs" Line="13" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="5. BlogApp" expanded="True">
+            <Node name="5. BlogApp">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views">
+                <Node name="Account" expanded="True">
+                  <Node name="Login.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.5._220BlogApp PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

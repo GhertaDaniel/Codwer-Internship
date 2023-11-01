@@ -1,0 +1,31 @@
+﻿@model User
+@using System.Security.Claims
+@{
+    ViewBag.Title = "Profile";
+    ViewBag.CurrentUrl = "~/Account/Profile";
+}
+
+<div>
+    @*@if (User.Identity.IsAuthenticated)
+    {
+        <h2>
+            @Model.PersonName
+        </h2>
+        <h4>@Model.Email</h4>
+
+        <ul>
+            @foreach (var blog in Model.Blogs)
+            {
+                <li>
+                    <div class="post-card">
+                        <div class="post-title">@blog.Title</div>
+                        <div class="post-content">@blog.Content</div>
+                    </div>
+                </li>
+            }
+        </ul>
+    }*@
+
+    <p>@User.FindFirstValue(ClaimTypes.NameIdentifier)</p>
+
+</div>

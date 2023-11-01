@@ -7,16 +7,18 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="21" Column="6" />
-      <File FileName="Magazin.cs" Line="8" Column="8" />
-      <File FileName="MagazinContext.cs" Line="28" Column="1" />
+      <File FileName="Program.cs" Line="6" Column="14" />
+      <File FileName="Models/Magazin.cs" />
+      <File FileName="Controller/OrderProductsController.cs" Line="8" Column="4" />
+      <File FileName="Models/MagazinContext.cs" Line="6" Column="31" />
+      <File FileName="Controller/ProductController.cs" Line="45" Column="22" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="4. Entity Framework Core" expanded="True">
-            <Node name="4. Entity Framework Core" selected="True">
-              <Node name="Dependencies" expanded="True" />
+          <Node name="4. Entity Framework Core">
+            <Node name="4. Entity Framework Core">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

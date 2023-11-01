@@ -1,0 +1,12 @@
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/bin/Debug/net6.0/BlogApp.Services.deps.json
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/bin/Debug/net6.0/BlogApp.Services.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/bin/Debug/net6.0/BlogApp.Services.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.csproj.AssemblyReference.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.AssemblyInfoInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.AssemblyInfo.cs
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.csproj.CoreCompileInputs.cache
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/refint/BlogApp.Services.dll
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/BlogApp.Services.pdb
+/Users/danmarshall/Desktop/Lucru/Codwer-Internship/Backend/5. BlogApp/BlogApp.Services/obj/Debug/net6.0/ref/BlogApp.Services.dll
